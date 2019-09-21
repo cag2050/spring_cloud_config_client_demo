@@ -8,6 +8,10 @@
 1. 配置两个配置文件：application.properties、bootstrap.properties
 2. 启动项目，在浏览器访问 http://localhost:8002/hello ，返回：Hello I am dev
 
+### 注意点
+1. Config Client 依赖的 artifactId 是：spring-cloud-config-client
+2. 启动类不需要添加 @EnableConfigServer 注解
+
 ### 参考
 参考资料 | 网址
 --- | ---
